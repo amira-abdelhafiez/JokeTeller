@@ -35,7 +35,7 @@ public class DataQueryAsyncTask extends AsyncTask<Context, Void , String> {
                     null
             );
             // IP 10.0.3.2 for genymotion and PC IP for real devices
-            apiBuilder.setRootUrl("http://10.0.2.2:8080/_ah/api/")
+            apiBuilder.setRootUrl("http://10.0.3.2:8080/_ah/api/")
                     .setGoogleClientRequestInitializer(new GoogleClientRequestInitializer() {
                         @Override
                         public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
